@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Home = () => {
   return (
     <>
@@ -54,13 +52,16 @@ const Home = () => {
   ],
   contact: {
     email: "sarojadh1111@gmail.com",
-    github: "https://github.com/Sarojadhi"
+    github: "https://github.com/Sarojadhi" 
   }
-};`}
+};`
+            }
+
+            
           </code>
         </pre>
       </div>
-      <div className="m-10 p-10 container mx-auto p-6 border-2 ">
+      <div className="m-10 p-10 container mx-auto border-2 rounded-2xl">
         <p className='text-3xl font-bold m-1 p-2'>skills : </p>
         <div className="grid grid-cols-3 gap-6">
           <div className="flex justify-center items-center bg-gray-100 p-4 rounded shadow">
@@ -85,14 +86,6 @@ const Home = () => {
         </div>
       </div>
 
-              <footer className='m-9 p-9 border-2 bg-blue h-30 w-auto'>
-                <div >
-                  <p>copyright </p>
-                </div>
-
-
-
-              </footer>
 
     </>
   )

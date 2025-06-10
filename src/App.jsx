@@ -3,21 +3,19 @@
 import Home from './landing_page/Home';
 import About from './landing_page/About';
 import Contact from './landing_page/Contact';
- 
+import Navbar from './landing_page/Navbar';
+ import Footer from './landing_page/Footer';
 
 function App() {
   return (
     <>
-    <Link to="/Logo">LOGO</Link>
-      <Link to="/">HOME</Link>
-      <Link to ="/About">About</Link>
-      <Link to ="/Contact">Contact</Link>
+    <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-     
+     <Footer />
     </>
   );
 }
