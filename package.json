@@ -1,5 +1,5 @@
 {
-  "name": "tailwindcss4",
+  "name": "nodejs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -31,5 +31,20 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
     "vite": "^6.3.5"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarojadhi/Personal-Portfolio.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "saroj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarojadhi/Personal-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Sarojadhi/Personal-Portfolio#readme"
 }

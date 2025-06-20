@@ -61,9 +61,9 @@ const Home = () => {
           </code>
         </pre>
       </div>
-      <div className="m-10 p-10 container mx-auto border-2 rounded-2xl">
+      <div className="m-10 p-10 container mx-auto border-2 rounded-2xl bg-emerald-100  overflow-x-auto shadow-amber-200">
         <p className='text-3xl font-bold m-1 p-2'>skills : </p>
-        <div className="grid grid-cols-3 gap-6">
+        <div className="grid grid-cols-3 gap-6 ">
           <div className="flex justify-center items-center bg-gray-100 p-4 rounded shadow">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxYM3Ip8rQjt13NAHXYtbgBxJZoHuhn4QCgg&s" alt="Html logo" className="w-24 h-24 object-cover rounded" />
           </div>
